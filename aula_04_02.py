@@ -1,37 +1,20 @@
-from selenium.webdriver import Firefox
-
-
-def find_by_text(browser, tag, text):
-    """Encontrar o elemento com o texto `text`.
-    Argumentos:
-        - browser = Instancia do browser [firefox, chrome, ...]
-        - texto = conteúdo que deve estar na tag
-        - tag = tag onde o texto será procurado
+from selenium.webdriver import Firefoxcd
+def find_element_by_text(browser,tag, text):
     """
-    elementos = browser.find_elements_by_tag_name(tag)  # lista
+    Encontrar o elemento com o texto
+
+    argumentos/:
+        -browser = instancia do browser
+        -text= o elemento o conteudo q deve esta na teg
+        -tag = onde o texto sera procutado
+
+    """
+    browser.find_element_by_tag_name(tag)#imprime uma lista_n_ordenada
 
     for elemento in elementos:
-        if elemento.text == text:
+        if elemento.txt == text:
             return elemento
-
-
-def find_by_href(browser, link):
-    """Encontrar o elemento `a` com o link `link`.
-    Argumentos:
-        - browser = Instancia do browser [firefox, chrome, ...]
-        - link = link que será procurado em todos as tags `a`
-    """
-    elementos = browser.find_elements_by_tag_name('a')
-
-    for elemento in elementos:
-        if link in elemento.get_attribute('href'):
-            return elemento
-
 
 browser = Firefox()
 
-browser.get('http://selenium.dunossauro.live/aula_04_a.html')
-
-# elemento_ddg = find_by_text(browser, 'a', 'DuckDuckGo')
-
-elemento_ddg = find_by_href(browser, 'ddg')
+elemento_ddg = find_by_text(browser, 'li', 'DuckDucGo')
