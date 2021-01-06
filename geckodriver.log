@@ -1008,3 +1008,22 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1609898740724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yuri\\AppData\\Local\\Temp\\rust_mozprofileissZwQ"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1609898746043	Marionette	INFO	Listening on port 51413
+1609898746168	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609898879103	Marionette	INFO	Stopped listening on port 51413
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609898942962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yuri\\AppData\\Local\\Temp\\rust_mozprofileb0AnyT"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1609898948791	Marionette	INFO	Listening on port 51463
+1609898948995	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609899143401	Marionette	INFO	Stopped listening on port 51463
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rs\\yuri\\AppData\\Local\\Temp\\rust_mozprofilecFEKg5"
