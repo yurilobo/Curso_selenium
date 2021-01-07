@@ -1027,3 +1027,12 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 rs\\yuri\\AppData\\Local\\Temp\\rust_mozprofilecFEKg5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1609899148821	Marionette	INFO	Listening on port 51510
+1609899149034	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609899883943	Marionette	INFO	Stopped listening on port 51510
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 7300, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 524
